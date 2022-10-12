@@ -13,7 +13,7 @@ OpenOBJ3D is written in C, but should work with C++ natively.
 
 To install OpenOBJ3D, execute build.sh script in the terminal.
 
-After installing the library to compile your code using gcc just add -limamll in the compile command, e.g: gcc main.c /usr/lib/x86_64-linux-gnu/openobj3d.so
+After installing the library to compile your code using gcc just add -lopenobj3d in the compile command, e.g: gcc main.c /usr/lib/x86_64-linux-gnu/openobj3d.so
 
 This library is distributed under zlib license. Please read License for more information
 
